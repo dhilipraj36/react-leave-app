@@ -2,7 +2,8 @@
 @import '~bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css';
 
 .container-fluid {
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   background-color: aquamarine;
   padding-top: 0.5rem;
 }
@@ -33,4 +34,21 @@
   .entryNo {
     margin-left: 18%;
   }
+}
+
+.approvalSection {
+  margin-top: 1rem;
+}
+
+.page-heading {
+  padding: 2px;
+  background: lightgrey;
+}
+
+.close-btn{
+  margin-left: 0.5rem;
+}
+
+.buttons-div{
+
 }
