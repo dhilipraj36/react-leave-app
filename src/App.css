@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css';
+
+.container-fluid {
+  height: 100vh;
+  background-color: aquamarine;
+  padding-top: 0.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-control {
+  border-radius: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.col-sm-12 {
+  margin-bottom: 0.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.form {
+  padding: 16px;
+  border:  1px solid lightgrey;
+  border-radius: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+.leaveList {
+  margin-top: 1rem;
+  padding: 16px;
+  border:  1px solid lightgrey;
+  border-radius: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (min-width: 768px) {
+  .entryNo {
+    margin-left: 18%;
   }
 }
